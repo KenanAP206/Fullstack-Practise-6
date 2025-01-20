@@ -1,0 +1,50 @@
+nav{
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    padding: 40px 15%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .nav-l{
+        font-size: 18px;
+        font-weight: 700;
+        color: #000;
+    }
+    .nav-r{
+        display: flex;
+        gap: 50px;
+        padding: 0px 30px;
+        a{
+            font-size: 13px;
+            font-weight: 600;
+            color: #40525A;
+        }
+        button{
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width:900px) {
+    nav{
+        background-color: #1c5b7b;
+        color: white;
+        
+        .nav-r{
+
+            a{
+                display: none;
+            }
+
+            button{
+                display: flex;
+                color: white;
+                background-color: transparent;
+                border: none;
+                font-size: 20px;
+            }
+        }
+    }
+}

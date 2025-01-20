@@ -1,0 +1,15 @@
+footer{
+    text-align: center;
+    font-size: 13px;
+    background-color: #ABD6EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 45px 0;
+    color: #758097;
+
+    a{
+        color: #6DB7DE;
+    }
+}

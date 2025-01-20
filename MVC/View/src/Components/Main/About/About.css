@@ -1,0 +1,52 @@
+.about{
+    background-image: url('https://preview.colorlib.com/theme/furnish/images/bg_4.jpg.webp');
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .about-cont{
+        position: absolute;
+        right: 10%;
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h6{
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: #a3a3a3;
+            letter-spacing: 1px;
+        }
+        h3{
+            font-size: 30px;
+            font-weight: 500;
+        }
+        p{
+            color: #848484;
+        }
+
+        .ac-btn{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-weight: 600;
+            color: #cf7500;
+            button{
+                width: max-content;
+                padding: 30px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                border: none;
+                cursor: pointer;
+                color: white;
+                background-color: #CF7500;
+            }
+        }
+    }
+}

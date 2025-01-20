@@ -1,0 +1,46 @@
+.hero{
+    background-color: #D4EAF5;
+    height: 100vh;
+    position: relative;
+    #hero{
+        position: absolute;
+        top: 35%;
+        color: #052C43;
+        h3{
+            font-weight: 200;
+            font-size: 40px;
+        }
+        h2{
+            font-size: 40px;
+        }
+        p{
+            font-size: 14px;
+            width: 60%;
+            color: #76829e;
+        }
+
+        button{
+            margin-top: 15px;
+            color: #267AA4;
+            background-color: white;
+            border-radius: 30px;
+            border: none;
+            box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+            font-weight: 500;
+            font-size: 13px;
+            padding: 15px 25px;
+            transition: 0.2s;
+            cursor: pointer;
+            &:hover{
+              box-shadow: none;
+            }
+        }
+    }
+
+    img{
+        object-fit: cover ;
+        float: right;
+        height: 100%;
+        width: 50%;
+    }
+}
